@@ -96,10 +96,10 @@ body{
     border: 1px solid lightgray;
     padding: 1%;
     display: inline-block;
-    border-radius: 20px;
     color: white;
     text-decoration: none;
-    background: #008B8B;
+    background: #DDB9A3;
+    font-size: 1.25rem;
 
 }
 
@@ -109,10 +109,8 @@ body{
     border: 1px solid lightgray;
     padding: 1%;
     display: block;
-    border-radius: 20px;
     color: white;
     text-decoration: none;
-    background: #008B8B;
     text-align: center;
 
 }
@@ -126,13 +124,14 @@ body{
 
 .container3 p{
 
-    margin: auto%;
+    margin-left: 30%;
+    margin-right: 30%;
     border: 1px solid lightgray;
     padding: 0;
     display: block;
-    color: white;
+    color: #000000;
     text-decoration: none;
-    background: #008B8B;
+    font-size: 1.5rem;
 
 }
 
@@ -142,7 +141,11 @@ body{
 
 }
 
-.container4 div {
+footer nav{
+    width: 100%;
+}
+
+.container4 section {
     height:17vh;
     background-image:url(assets/footer_img.jpg);
     background-size:100%;
@@ -151,7 +154,7 @@ body{
     background-repeat: no-repeat;
    }
 
-.container4 footer nav a {
+/*.container4 footer nav a {
     margin: 2%;
     border: 1px solid lightgray;
     padding: 1%;
@@ -160,4 +163,52 @@ body{
     color: white;
     text-decoration: none;
     background: #008B8B;
+  }*/
+  
+  .container4 {
+    text-align: center;
+}
+
+.container4 footer nav {
+    /*height: 20vh;*/
+    margin: 0;
+    border: 1px solid lightgray;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1rem;
+  
   }
+
+  .container4 footer nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+#btn4{
+    margin: 5%;
+    background-color:#FF764E;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+
+#btn5{
+    margin: 5%;
+    background-color:#5ED3EB;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+
+#btn6{
+    margin: 5%;
+    background-color:#FFCD69;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
