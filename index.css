@@ -1,0 +1,163 @@
+/* add commments throughout cnt? c&p hold alt for linegrabnmove*/  
+
+*{
+    border: 1px solid lightgray;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.8rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container header nav {
+    height: 20vh;
+    margin: 0;
+    border: 1px solid lightgray;
+    padding: 0;
+    display: block;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1rem;
+ 
+  }
+
+  .container header nav a{
+    text-decoration: none;
+    color: white;
+  }
+
+#btn1{
+    margin: 5%;
+    background-color:#FF764E;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+
+#btn2{
+    margin: 5%;
+    background-color:#5ED3EB;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+
+#btn3{
+    margin: 5%;
+    background-color:#FFCD69;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+
+
+.container header img {
+    margin: 2%;
+    border-radius: 1000px;
+    display: inline-block;
+    width: 25%;
+}
+
+#leftofimg{
+    margin: auto%;
+    /*border: 1px solid lightgray;*/
+    padding:0%;
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+#leftofimg h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+#leftofimg p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+} 
+
+.container2{
+
+    margin: 2%;
+    border: 1px solid lightgray;
+    padding: 1%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #008B8B;
+
+}
+
+.container3{
+
+    margin: auto%;
+    border: 1px solid lightgray;
+    padding: 1%;
+    display: block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #008B8B;
+    text-align: center;
+
+}
+
+.container3 img {
+    margin: auto%;
+    padding: 1%;
+    display: inline-block;
+    width: 10%;
+}
+
+.container3 p{
+
+    margin: auto%;
+    border: 1px solid lightgray;
+    padding: 0;
+    display: block;
+    color: white;
+    text-decoration: none;
+    background: #008B8B;
+
+}
+
+.container4{
+
+    text-align: center;
+
+}
+
+.container4 div {
+    height:17vh;
+    background-image:url(assets/footer_img.jpg);
+    background-size:100%;
+    background-position: 50% 25%;
+    background-attachment: local;
+    background-repeat: no-repeat;
+   }
+
+.container4 footer nav a {
+    margin: 2%;
+    border: 1px solid lightgray;
+    padding: 1%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #008B8B;
+  }
