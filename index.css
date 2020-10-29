@@ -1,8 +1,7 @@
-/* add commments throughout cnt? c&p hold alt for linegrabnmove*/  
 
-*{
+/**{
     border: 1px solid lightgray;
-}
+}*/
 
 html{
     font-size:62.5%;
@@ -21,11 +20,10 @@ body{
 .container header nav {
     height: 20vh;
     margin: 0;
-    border: 1px solid lightgray;
     padding: 0;
     display: block;
     text-align: center;
-    line-height: 1.25;
+    line-height: 1.1;
     font-size: 1rem;
  
   }
@@ -36,30 +34,48 @@ body{
   }
 
 #btn1{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#FF764E;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 #btn2{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#5ED3EB;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 #btn3{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#FFCD69;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+   font-size: 1.7rem;
 }
 
 
@@ -72,7 +88,6 @@ body{
 
 #leftofimg{
     margin: auto%;
-    /*border: 1px solid lightgray;*/
     padding:0%;
     display: inline-block;
     color: #000000;
@@ -87,26 +102,28 @@ body{
 
 #leftofimg p{
     font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+    font-size: 1.8rem;
 } 
 
 .container2{
 
     margin: 2%;
+    padding-top: 1%;
+    padding-left: 1.2%;
+    padding-right: 1.2%;
+    padding-bottom: 1%;
     border: 1px solid lightgray;
-    padding: 1%;
     display: inline-block;
     color: white;
     text-decoration: none;
     background: #DDB9A3;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
 
 }
 
 .container3{
 
     margin: auto%;
-    border: 1px solid lightgray;
     padding: 1%;
     display: block;
     color: white;
@@ -119,19 +136,22 @@ body{
     margin: auto%;
     padding: 1%;
     display: inline-block;
-    width: 10%;
+    width: 12%;
 }
 
 .container3 p{
-
+    margin-top: 0;
     margin-left: 30%;
     margin-right: 30%;
-    border: 1px solid lightgray;
-    padding: 0;
+    margin-bottom: 5%;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
     display: block;
     color: #000000;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
 }
 
@@ -146,33 +166,20 @@ footer nav{
 }
 
 .container4 section {
-    height:17vh;
+    height:25vh;
     background-image:url(assets/footer_img.jpg);
     background-size:100%;
-    background-position: 50% 25%;
+    background-position: 50% 14%;
     background-attachment: local;
     background-repeat: no-repeat;
    }
 
-/*.container4 footer nav a {
-    margin: 2%;
-    border: 1px solid lightgray;
-    padding: 1%;
-    display: inline-block;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    background: #008B8B;
-  }*/
-  
   .container4 {
     text-align: center;
 }
 
 .container4 footer nav {
-    /*height: 20vh;*/
     margin: 0;
-    border: 1px solid lightgray;
     padding: 0;
     display: inline-block;
     text-align: center;
@@ -187,28 +194,46 @@ footer nav{
   }
 
 #btn4{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#FF764E;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 #btn5{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#5ED3EB;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 #btn6{
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1.5%;
     background-color:#FFCD69;
     display: inline-block;
     border-radius: 20px;
-    padding: 2%;
-    font-size: 1.8rem;
+   font-size: 1.7rem;
 }
